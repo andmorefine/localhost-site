@@ -1,3 +1,16 @@
 {
-  "editor.formatOnSave": true
+  "eslint.options": {
+    "configFile": ".eslintrc.js"
+  },
+  "eslint.validate": [
+    "vue",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    //   "source.fixAll.eslint": true
+  }
 }
