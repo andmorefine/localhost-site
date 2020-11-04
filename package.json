@@ -1,0 +1,34 @@
+{
+  "name": "top-ec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andmorefine/top-ec.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andmorefine/top-ec/issues"
+  },
+  "homepage": "https://github.com/andmorefine/top-ec#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-data": "^1.3.1",
+    "gulp-html-beautify": "^1.0.1"
+  },
+  "browserslist": [
+    "last 2 version", "ie >= 9", "iOS >= 8.1", "Android >= 4.4"
+  ]
+}
